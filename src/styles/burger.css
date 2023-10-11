@@ -1,0 +1,100 @@
+.container {
+  display: flex;
+  margin: auto;
+  width: 96%;
+}
+
+.sidebar-menu {
+  width: 25%;
+}
+
+.burger-actions {
+  display: flex;
+  flex-direction: column;
+}
+
+.burger-wrapper {
+  width: 40%;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.burger {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.remove-ingredient {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.remove-ingredient input {
+  padding: 10px 16px;
+  border-radius: 6px;
+  border: 1px solid gray;
+  width: 55%;
+}
+
+.ingredients {
+  width: 485px;
+  border-radius: 25px;
+  text-align: right;
+  margin: 4px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.remove-ingredient-icon {
+  border: none;
+  border-radius: 12px;
+  margin-right: 4px;
+  cursor: pointer;
+}
+
+.cheese {
+  height: 24px;
+  background-color: #ffa600;
+}
+
+.meat {
+  height: 54px;
+  background-color: #9c4b4b;
+}
+
+.lettuse {
+  height: 40px;
+  background-color: #d5df80;
+}
+
+.tomato {
+  height: 32px;
+  background-color: #ff6347;
+}
+
+.btn {
+  margin: 4px 0px;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* .bottom-bread {
+  background-color: #c68958;
+  padding: 40px;
+  border-radius: 16px 16px 40px 40px;
+  width: 450px;
+  margin-top: 8px;
+}
+
+.top-bread {
+  margin-bottom: 8px;
+  background-color: #c68958;
+  padding: 64px;
+  border-radius: 40px 40px 16px 16px ;
+  width: 450px;
+} */
